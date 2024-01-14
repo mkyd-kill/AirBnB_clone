@@ -39,8 +39,6 @@ def parse(arg):
 class HBNBCommand(cmd.Cmd):
     """Defines the structure of the command interpreter
     from which commands to run, and the layout of the command UI"""
-
-    intro = "Welcome to Python Command Interpreter\n"
     prompt = "(hbnb) "
 
     # registering the model classes to be used

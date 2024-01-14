@@ -153,6 +153,7 @@ class HBNBCommand(cmd.Cmd):
                     obj.append(i.__str__())
                 elif len(argv) == 0:
                     obj.append(i.__str__())
+            print(obj)
 
     def do_update(self, arg):
         """Updates an instance based on the class name and id
